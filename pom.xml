@@ -49,20 +49,20 @@
 						<param>com.acme.*</param>
 					</targetTests>
 				</configuration>
-				<executions>
-					<execution>
-						<id>mutation-coverage</id>
-						<goals>
-							<goal>mutationCoverage</goal>
-						</goals>
-					</execution>
-					<execution>
-						<id>mutation-report</id>
-						<goals>
-							<goal>report</goal>
-						</goals>
-					</execution>
-				</executions>
+<!--				<executions>-->
+<!--					<execution>-->
+<!--						<id>mutation-coverage</id>-->
+<!--						<goals>-->
+<!--							<goal>mutationCoverage</goal>-->
+<!--						</goals>-->
+<!--					</execution>-->
+<!--					<execution>-->
+<!--						<id>mutation-report</id>-->
+<!--						<goals>-->
+<!--							<goal>report</goal>-->
+<!--						</goals>-->
+<!--					</execution>-->
+<!--				</executions>-->
 			</plugin>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>

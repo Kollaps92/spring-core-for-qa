@@ -24,6 +24,7 @@ import static org.fest.assertions.api.Assertions.assertThat;
 @ActiveProfiles({"test","system-test"})
 @TestPropertySource("classpath:app.properties")
 @Transactional
+@Ignore
 public class DemoSystemTest {
     @Autowired private ReportingService reportingService;
     @Autowired private AccountRepository accountRepository;
